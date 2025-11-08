@@ -1,3 +1,6 @@
+"use client";
+
+import { AssistantModal } from "@/components/assistant-ui/assistant-modal";
 import { CompanyInfoLayout } from "@/components/CompanyInfo/CompanyInfoLayout";
 import { Comparison } from "@/components/Comparison";
 import { Footer } from "@/components/Footer";
@@ -22,6 +25,7 @@ const Home = () => (
       <Members />
       <CompanyInfoLayout />
     </main>
+    <AssistantModal />
 
     <Footer />
   </>

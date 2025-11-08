@@ -48,7 +48,7 @@ export const AnimatedTestimonials = ({
       <div className="relative grid grid-cols-1 gap-16 md:grid-cols-2">
         <div>
           <div className="relative h-80 w-full">
-            <AnimatePresence>
+            {/* <AnimatePresence>
               {testimonials.map((testimonial, index) => (
                 <motion.div
                   key={testimonial.src}
@@ -90,7 +90,7 @@ export const AnimatedTestimonials = ({
                   />
                 </motion.div>
               ))}
-            </AnimatePresence>
+            </AnimatePresence> */}
           </div>
         </div>
         <div className="flex flex-col justify-between py-4">
